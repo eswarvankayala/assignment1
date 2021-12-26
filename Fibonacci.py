@@ -3,7 +3,7 @@ b=1
 print(a)
 print(b)
 k=int(input("enter the required the length tof thr series"))
-for i in range(0,100):
+for i in range(0,k+1):
     c=a+b
     print(c)
     a=b
